@@ -1,5 +1,5 @@
 {
-  "$id": "https://hermes-ios.github.io/02-finance.json",
+  "$id": "https://robfuj.github.io/02-finance.json",
   "title": "Finance spec",
   "type": "object",
   "required": [

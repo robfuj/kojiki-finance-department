@@ -1,0 +1,120 @@
+{
+  "department": "02-finance",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 8,
+  "bots": [
+    {
+      "slug": "accounting",
+      "sub_function": "Accounting",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "fp-a",
+      "sub_function": "FP&A",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "treasury",
+      "sub_function": "Treasury",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "tax",
+      "sub_function": "Tax",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "financial-control",
+      "sub_function": "Financial Control",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "capital-management",
+      "sub_function": "Capital Management",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "investor-relations",
+      "sub_function": "Investor Relations",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    },
+    {
+      "slug": "financial-strategy",
+      "sub_function": "Financial Strategy",
+      "titles": [
+        "CFO",
+        "VP Finance",
+        "Controller",
+        "FP&A Director",
+        "Finance Director",
+        "Treasurer",
+        "Financial Analyst",
+        "Tax Director"
+      ]
+    }
+  ]
+}
