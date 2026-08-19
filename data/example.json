@@ -28,7 +28,7 @@
     "actual_outcome": "ROI 2.9x at $400k; CAC stable",
     "learning_extracted": "We systematically over-allocate past the ROI knee",
     "rule_version": "FIN-RULE-011",
-    "last_reviewed": "2026-08-18"
+    "last_reviewed": "2026-08-19"
   },
   "learning_ledger": {
     "case": "Reallocate cash to a new growth bet",
