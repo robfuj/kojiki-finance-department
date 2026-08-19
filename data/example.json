@@ -1,0 +1,46 @@
+{
+  "decision_object": {
+    "decision_id": "FIN-2026-031",
+    "decision_name": "Reallocate $500k growth capital",
+    "owning_function": "Finance",
+    "decision_owner_role": "CFO",
+    "trigger_condition": "Idle cash earning 4%; proven channel needs fuel",
+    "current_state": "Idle cash at 4%; channel ROI 3.2x on last $200k",
+    "required_inputs": [
+      "channel ROI history",
+      "liquidity forecast",
+      "CAC trend"
+    ],
+    "evidence_threshold": "Blended ROI >= 2.5x at 2x peak",
+    "available_options": [
+      "All $500k",
+      "$400k + hold $100k",
+      "Hold all",
+      "Hedge with shorter runway"
+    ],
+    "decision_criteria": "Marginal return > 4% + risk premium; avoid ROI knee",
+    "constraints": "Must keep >= $100k liquidity buffer",
+    "risk_level": "medium",
+    "delegation_level": "Own",
+    "escalation_conditions": "CAC breach of $200 ceiling",
+    "expected_outcome": "Blended ROI >= 2.5x",
+    "verification_method": "30-day blended ROI + CAC monitor",
+    "actual_outcome": "ROI 2.9x at $400k; CAC stable",
+    "learning_extracted": "We systematically over-allocate past the ROI knee",
+    "rule_version": "FIN-RULE-011",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "Reallocate cash to a new growth bet",
+    "decision": "Allocate $400k, hold $100k",
+    "assumption": "Channel ROI holds past $400k",
+    "action": "Wire $400k; set $200 CAC ceiling trigger",
+    "expected_result": "ROI >= 2.5x, CAC stable",
+    "actual_result": "2.9x ROI, stable CAC",
+    "variance": "None material",
+    "cause": "Diminishing returns modeled correctly",
+    "learning": "Cap single-channel deployment at the ROI knee",
+    "rule_update": "Cap single-channel deployment at modeled ROI-knee"
+  },
+  "orientation_required": true
+}

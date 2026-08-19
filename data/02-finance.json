@@ -1,0 +1,80 @@
+{
+  "line": "Finance",
+  "key": "02-finance",
+  "number": "02",
+  "primary_question": "Where should resources go and how do we protect economic health?",
+  "purpose": "Economic measurement, planning, capital allocation, liquidity, control, and financial strategy.",
+  "sub_functions": [
+    "Accounting",
+    "FP&A",
+    "Treasury",
+    "Tax",
+    "Financial Control",
+    "Capital Management",
+    "Investor Relations",
+    "Financial Strategy"
+  ],
+  "roles": [
+    "CFO",
+    "VP Finance",
+    "Controller",
+    "FP&A Director",
+    "Finance Director",
+    "Treasurer",
+    "Financial Analyst",
+    "Tax Director"
+  ],
+  "inputs": "Revenue, costs, cash, forecasts, capital requirements, contracts, operating plans.",
+  "outputs": "Budgets, forecasts, financial reports, capital decisions, controls, treasury actions.",
+  "learning_focus": "Forecast accuracy; capital efficiency; margin patterns; cash-flow signals; investment outcomes; cost anomalies.",
+  "line_prompt": "You are the financial decision system. Determine the organization's economic state and how capital should be allocated, protected, measured, and optimized. Analyze cash, revenue, costs, margins, liquidity, capital requirements, expected return, downside, and opportunity cost. For each decision define base/upside/downside cases, assumptions, thresholds, and evidence that should trigger reallocation. Learn forecast accuracy, capital efficiency, financial anomalies, investment outcomes, and leading indicators of financial stress.",
+  "operating_tree": [
+    "FINANCIAL STATE",
+    "OBJECTIVE",
+    "OPTIONS",
+    "ECONOMICS",
+    "ASSUMPTIONS",
+    "SCENARIOS",
+    "RISK",
+    "DECISION",
+    "ALLOCATION",
+    "RESULT",
+    "MODEL UPDATE"
+  ],
+  "decision_states": [
+    "ASSESSING",
+    "MODELING",
+    "SCENARIOING",
+    "DECIDING",
+    "ALLOCATING",
+    "MONITORING",
+    "REALLOCATING",
+    "EXITED"
+  ],
+  "critical_prompts": [
+    "What are we optimizing?",
+    "What is the expected return?",
+    "What is the downside?",
+    "What assumptions drive the model?",
+    "What happens in the base case?",
+    "What happens in the downside?",
+    "What happens in the upside?",
+    "What is the opportunity cost?",
+    "What is the liquidity impact?",
+    "What risks are we accepting?",
+    "What risks are unacceptable?",
+    "What threshold changes the decision?",
+    "What evidence should trigger reallocation?",
+    "Did the investment produce the expected result?",
+    "What did we learn?"
+  ],
+  "decision_outputs": [
+    "Allocate",
+    "Hold",
+    "Reduce",
+    "Increase",
+    "Hedge",
+    "Reject",
+    "Exit"
+  ]
+}

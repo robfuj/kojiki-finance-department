@@ -1,0 +1,36 @@
+```mermaid
+flowchart TD
+    n0["FINANCIAL STATE"]
+    n1["OBJECTIVE"]
+    n2["OPTIONS"]
+    n3["ECONOMICS"]
+    n4["ASSUMPTIONS"]
+    n5["SCENARIOS"]
+    n6["RISK"]
+    n7["DECISION"]
+    n8["ALLOCATION"]
+    n9["RESULT"]
+    n10["MODEL UPDATE"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n0 -->|learning| n0
+
+stateDiagram-v2
+    [*] --> ASSESSING
+    ASSESSING --> MODELING
+    MODELING --> SCENARIOING
+    SCENARIOING --> DECIDING
+    DECIDING --> ALLOCATING
+    ALLOCATING --> MONITORING
+    MONITORING --> REALLOCATING
+    REALLOCATING --> EXITED
+    EXITED --> [*]
+```
